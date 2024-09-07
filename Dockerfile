@@ -1,4 +1,5 @@
 FROM elricariocco/mltb2024sept:latest
+RUN curl https://rclone.org/install.sh | bash
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
